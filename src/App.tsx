@@ -31,12 +31,20 @@ const flag3: FlagType= {
   color3: "bg-[#ce2a1d]",
   horizontal: false,
 }
+const flag4: FlagType= {
+  name : "Germany",
+  color2: "bg-[#000000]",
+  color1: "bg-[#f70000]",
+  color3: "bg-[#f7c900]",
+  horizontal: false,
+}
   return (
     <>
      <div className='w-full flex justify-center items-center gap-2'>
       <Flag flag={flag1}/>
       <Flag flag={flag2}/>
       <Flag flag={flag3}/>
+      <Flag flag={flag4}/>
      </div>
     </>
   )
